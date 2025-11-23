@@ -1,0 +1,116 @@
+{
+    "scale_name": "GAD-7",
+    "category": "Anxiety",
+    "questions": [
+        {
+            "id": "Q1",
+            "text": "Feeling nervous, anxious, or on edge",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q2",
+            "text": "Not being able to stop or control worrying",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q3",
+            "text": "Worrying too much about different things",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q4",
+            "text": "Trouble relaxing",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q5",
+            "text": "Being so restless that it is hard to sit still",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q6",
+            "text": "Becoming easily annoyed or irritable",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        },
+        {
+            "id": "Q7",
+            "text": "Feeling afraid, as if something awful might happen",
+            "options": {
+                "0": "Not at all",
+                "1": "Several days",
+                "2": "More than half the days",
+                "3": "Nearly every day"
+            }
+        }
+    ],
+    "scoring": {
+        "method": "sum",
+        "reverse_scored": [],
+        "subscales": null,
+        "range": [
+            0,
+            21
+        ],
+        "interpretation": [
+            {
+                "min": 0,
+                "max": 4,
+                "level": "Minimal anxiety"
+            },
+            {
+                "min": 5,
+                "max": 9,
+                "level": "Mild anxiety"
+            },
+            {
+                "min": 10,
+                "max": 14,
+                "level": "Moderate anxiety"
+            },
+            {
+                "min": 15,
+                "max": 21,
+                "level": "Severe anxiety"
+            }
+        ]
+    },
+    "functional_impairment": {
+        "question": "If you checked any problems, how difficult have they made it for you to do your work, take care of things at home, or get along with other people?",
+        "options": {
+            "0": "Not difficult at all",
+            "1": "Somewhat difficult",
+            "2": "Very difficult",
+            "3": "Extremely difficult"
+        }
+    }
+}

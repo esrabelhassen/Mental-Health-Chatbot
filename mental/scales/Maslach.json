@@ -1,0 +1,377 @@
+{
+    "scale_name": "MBI",
+    "category": "Burnout",
+    "questions": [
+        {
+            "id": "Q1",
+            "text": "Je me sens émotionnellement vidé par mon travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q2",
+            "text": "Je me sens « à bout » à la fin de ma journée de travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q3",
+            "text": "Je me sens fatigué(e) lorsque je me lève le matin et que j’ai à affronter une autre journée de travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q4",
+            "text": "Je peux comprendre facilement ce que mes malades ressentent",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q5",
+            "text": "Je sens que je m’occupe de certains malades de façon impersonnelle comme s’ils étaient des objets",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q6",
+            "text": "Travailler avec des gens tout au long de la journée me demande beaucoup d’effort",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q7",
+            "text": "Je m’occupe très efficacement des problèmes de mes malades",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q8",
+            "text": "Je sens que je craque à cause de mon travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q9",
+            "text": "J’ai l’impression à travers mon travail d’avoir une influence positive sur les gens",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q10",
+            "text": "Je suis devenu(e) plus insensible aux gens depuis que j’ai ce travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q11",
+            "text": "Je crains que ce travail ne m’endurcisse émotionnellement",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q12",
+            "text": "Je me sens plein(e) d’énergie",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q13",
+            "text": "Je me sens frustré(e) par mon travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q14",
+            "text": "Je sens que je travaille trop dur dans mon travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q15",
+            "text": "Je ne me soucie pas vraiment de ce qui arrive à certains de mes malades",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q16",
+            "text": "Travailler au contact direct avec les gens me stresse trop",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q17",
+            "text": "J’arrive facilement à créer une atmosphère détendue avec mes malades",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q18",
+            "text": "Je me sens ragaillardi(e) lorsque dans mon travail j’ai été proche de mes malades",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q19",
+            "text": "J’ai accompli beaucoup de choses qui en valent la peine dans ce travail",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q20",
+            "text": "Je me sens au bout du rouleau",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q21",
+            "text": "Dans mon travail je traite les problèmes émotionnels très calmement",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        },
+        {
+            "id": "Q22",
+            "text": "J’ai l’impression que mes malades me rendent responsable de certains de leurs problèmes",
+            "options": {
+                "0": "Jamais",
+                "1": "Quelques fois par an",
+                "2": "Une fois par mois",
+                "3": "Quelques fois par mois",
+                "4": "Une fois par semaine",
+                "5": "Quelques fois par semaine",
+                "6": "Chaque jour"
+            }
+        }
+    ],
+    "scoring": {
+        "method": "subscales",
+        "subscales": {
+            "Epuisement_professionnel": {
+                "questions": [
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q6",
+                    "Q8",
+                    "Q13",
+                    "Q14",
+                    "Q16",
+                    "Q20"
+                ],
+                "interpretation": [
+                    {
+                        "max": 16,
+                        "level": "Bas"
+                    },
+                    {
+                        "min": 17,
+                        "max": 29,
+                        "level": "Modéré"
+                    },
+                    {
+                        "min": 30,
+                        "level": "Élevé"
+                    }
+                ]
+            },
+            "Depersonnalisation": {
+                "questions": [
+                    "Q5",
+                    "Q10",
+                    "Q11",
+                    "Q15",
+                    "Q22"
+                ],
+                "interpretation": [
+                    {
+                        "max": 5,
+                        "level": "Bas"
+                    },
+                    {
+                        "min": 6,
+                        "max": 11,
+                        "level": "Modéré"
+                    },
+                    {
+                        "min": 12,
+                        "level": "Élevé"
+                    }
+                ]
+            },
+            "Accomplissement_personnel": {
+                "questions": [
+                    "Q4",
+                    "Q7",
+                    "Q9",
+                    "Q12",
+                    "Q17",
+                    "Q18",
+                    "Q19",
+                    "Q21"
+                ],
+                "interpretation": [
+                    {
+                        "min": 40,
+                        "level": "Bas"
+                    },
+                    {
+                        "min": 34,
+                        "max": 39,
+                        "level": "Modéré"
+                    },
+                    {
+                        "max": 33,
+                        "level": "Élevé"
+                    }
+                ],
+                "note": "Ici, un score bas indique un burnout élevé, contrairement aux autres sous-échelles."
+            }
+        }
+    }
+}

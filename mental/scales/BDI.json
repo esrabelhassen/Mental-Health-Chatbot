@@ -1,0 +1,348 @@
+{
+  "scale_name": "stress_au_travail",
+  "category": "Stress professionnel",
+  "questions": [
+    {
+      "id": "P1",
+      "text": "Les journées sont trop courtes pour tout le travail que j'ai à faire",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "C2",
+      "text": "Je ne peux pas prévoir le travail que je ferai dans un an",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "E3",
+      "text": "Mon cadre de travail est agréable",
+      "options": {
+        "0": "Tout à fait vrai",
+        "1": "Plutôt vrai",
+        "2": "Plutôt faux",
+        "3": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "R4",
+      "text": "Autour de moi, il y a trop de gens qui ont de fichus caractères et ne sont pas faciles à vivre",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "E5",
+      "text": "Mon métier exige des efforts physiques ou des taches pénibles",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "V6",
+      "text": "Vu le métier que j'exerce, je pourrais très bien être victime d'une agression",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "F7",
+      "text": "Avec tout ce que je fournis comme travail, je ne suis pas vraiment payé de retour",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "P8",
+      "text": "Je dois souvent mener plusieurs choses de front dans mon travail",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "C9",
+      "text": "Le service où je travaille risque prochainement d'être restructuré ou déplacé",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "F10",
+      "text": "Je reçois plus de critiques que de félicitations dans mon travail",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "C11",
+      "text": "J'ai du mal à maîtriser les technologies nouvelles à mon travail (informatique, Internet, etc.)",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "R12",
+      "text": "Les contacts que j'ai avec les gens à mon travail sont sources de satisfaction",
+      "options": {
+        "0": "Tout à fait vrai",
+        "1": "Plutôt vrai",
+        "2": "Plutôt faux",
+        "3": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "P13",
+      "text": "Dans mon travail, faire une erreur pourrait avoir des conséquences graves",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "E14",
+      "text": "Je passe beaucoup de temps dans les déplacements (pour me rendre à mon travail ou de par mon métier)",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "V15",
+      "text": "Il m'arrive, au travail, de ressentir de la peur et craindre pour ma sécurité, face à certaines personnes",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "F16",
+      "text": "Je pense que mon entreprise ne se soucie pas de ma carrière",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "R17",
+      "text": "Je suis souvent en contact avec des gens impolis, voire franchement désagréables",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "C18",
+      "text": "Le métier que j'exerce nécessite de s'adapter sans cesse à des choses nouvelles",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "V19",
+      "text": "J'ai déjà reçu des coups ou des blessures dans l'exercice de mon métier",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "P20",
+      "text": "On m'a fixé des objectifs de travail que je trouve difficiles à atteindre",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "V21",
+      "text": "Il y a, à mon travail, une personne (ou plusieurs) qui prend plaisir à me faire souffrir",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "E22",
+      "text": "Je travaille dans une atmosphère bruyante et agitée",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "F23",
+      "text": "L'entreprise où je travaille offre de nombreux avantages",
+      "options": {
+        "0": "Tout à fait vrai",
+        "1": "Plutôt vrai",
+        "2": "Plutôt faux",
+        "3": "Tout à fait faux"
+      }
+    },
+    {
+      "id": "R24",
+      "text": "Il y a une mauchaise ambiance à mon travail",
+      "options": {
+        "3": "Tout à fait vrai",
+        "2": "Plutôt vrai",
+        "1": "Plutôt faux",
+        "0": "Tout à fait faux"
+      }
+    }
+  ],
+  "scoring": {
+    "method": "sum",
+    "reverse_scored": [
+      "E3",
+      "R12",
+      "F23"
+    ],
+    "subscales": {
+      "P": {
+        "name": "Pression",
+        "questions": [
+          "P1",
+          "P8",
+          "P13",
+          "P20"
+        ],
+        "description": "Stresseurs liés à la pression exercée sur vous"
+      },
+      "C": {
+        "name": "Changement",
+        "questions": [
+          "C2",
+          "C9",
+          "C11",
+          "C18"
+        ],
+        "description": "Stresseurs liés aux changements que vous affrontez"
+      },
+      "F": {
+        "name": "Frustration",
+        "questions": [
+          "F7",
+          "F10",
+          "F16",
+          "F23"
+        ],
+        "description": "Stresseurs liés aux frustrations que vous vivez"
+      },
+      "R": {
+        "name": "Relations",
+        "questions": [
+          "R4",
+          "R12",
+          "R17",
+          "R24"
+        ],
+        "description": "Stresseurs relationnels que vous rencontrez"
+      },
+      "V": {
+        "name": "Violence",
+        "questions": [
+          "V6",
+          "V15",
+          "V19",
+          "V21"
+        ],
+        "description": "Stresseurs liés à la violence dont vous êtes victime"
+      },
+      "E": {
+        "name": "Environnement",
+        "questions": [
+          "E3",
+          "E5",
+          "E14",
+          "E22"
+        ],
+        "description": "Stresseurs liés à votre environnement de travail"
+      }
+    },
+    "range": [
+      0,
+      72
+    ],
+    "interpretation": [
+      {
+        "min": 0,
+        "max": 10,
+        "level": "Votre travail ne semble pas trop stressant"
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "level": "Vous avez quelques facteurs de stress dans votre travail"
+      },
+      {
+        "min": 21,
+        "max": 30,
+        "level": "Vous avez de nombreux facteurs de stress au travail"
+      },
+      {
+        "min": 31,
+        "max": 40,
+        "level": "Votre travail est très stressant"
+      },
+      {
+        "min": 41,
+        "max": 72,
+        "level": "Votre travail est extrêmement stressant"
+      }
+    ]
+  },
+  "functional_impairment": null
+}

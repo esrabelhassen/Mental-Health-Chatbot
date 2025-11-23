@@ -1,0 +1,155 @@
+{
+    "scale_name": "PSS",
+    "category": "Stress",
+    "questions": [
+        {
+            "id": "Q1",
+            "text": "Au cours du dernier mois combien de fois, avez-vous été dérangé(e) par un évènement inattendu ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q2",
+            "text": "Au cours du dernier mois combien de fois vous a-t-il semblé difficile de contrôler les choses importantes de votre vie ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q3",
+            "text": "Au cours du dernier mois combien de fois vous êtes-vous senti(e) nerveux(se) ou stressé(e) ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q4",
+            "text": "Au cours du dernier mois combien de fois vous êtes-vous senti(e) confiant(e) à prendre en main vos problèmes personnels ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q5",
+            "text": "Au cours du dernier mois combien de fois avez-vous senti que les choses allaient comme vous le vouliez ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q6",
+            "text": "Au cours du dernier mois combien de fois avez-vous pensé que vous ne pouviez pas assumer toutes les choses que vous deviez faire ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q7",
+            "text": "Au cours du dernier mois combien de fois avez-vous été capable de maîtriser votre énervement ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q8",
+            "text": "Au cours du dernier mois combien de fois avez-vous senti que vous dominez la situation ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q9",
+            "text": "Au cours du dernier mois combien de fois vous êtes-vous senti(e) irrité(e) parce que des évènements échappaient à votre contrôle ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        },
+        {
+            "id": "Q10",
+            "text": "Au cours du dernier mois combien de fois avez-vous trouvé que les difficultés s'accumulaient à un tel point que vous ne pouviez les contrôler ?",
+            "options": {
+                "0": "Jamais",
+                "1": "Presque jamais",
+                "2": "Parfois",
+                "3": "Assez souvent",
+                "4": "Souvent"
+            }
+        }
+    ],
+    "scoring": {
+        "method": "sum",
+        "reverse_scored": [
+            "Q4",
+            "Q5",
+            "Q7",
+            "Q8"
+        ],
+        "reverse_mapping": {
+            "0": 4,
+            "1": 3,
+            "2": 2,
+            "3": 1,
+            "4": 0
+        },
+        "subscales": null,
+        "range": [
+            0,
+            40
+        ],
+        "interpretation": [
+            {
+                "min": 0,
+                "max": 13,
+                "level": "Stress perçu faible"
+            },
+            {
+                "min": 14,
+                "max": 26,
+                "level": "Stress perçu modéré"
+            },
+            {
+                "min": 27,
+                "max": 40,
+                "level": "Stress perçu élevé"
+            }
+        ]
+    },
+    "functional_impairment": null
+}
