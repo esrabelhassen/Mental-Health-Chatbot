@@ -11,7 +11,6 @@ load_dotenv()
 
 os.getenv("OPENAI_API_KEY")
 
-# Global conversation state per session
 session_states = {}
 
 def start_session(user_intro_text):
@@ -27,11 +26,9 @@ def chatbot_response(user_input):
     state = session_states.get("state")
     scale = session_states.get("scale")
 
-    # If no active session yet
     if not state or not scale:
         return "Please start by describing how you feel."
 
-    # If user types "help X"
     if user_input.lower().startswith("help"):
         parts = user_input.split()
         if len(parts) > 1:
@@ -39,29 +36,25 @@ def chatbot_response(user_input):
             return clarify_option("?", option, state["current_scale"])
         return "Type `help <option_number>` to clarify what an option means."
 
-    # Get current question
     q = get_next_question(scale, state)
     if not q:
-        # Already completed
         score = calculate_score(scale, state["responses"])
         interpretation = interpret_score(scale, score)
         feedback = final_feedback(state["current_scale"], score, interpretation)
-        return f"✅ Screening complete!\n\nScore: {score}\nInterpretation: {interpretation}\n\n{feedback}"
+        return f"Screening complete\n\nScore: {score}\nInterpretation: {interpretation}\n\n{feedback}"
 
-    # Expect numeric input
     try:
         val = int(user_input)
         record_response(state, q["id"], val)
     except ValueError:
         return f"Please answer with a number corresponding to the options."
 
-    # Next question
     next_q = get_next_question(scale, state)
     if not next_q:
         score = calculate_score(scale, state["responses"])
         interpretation = interpret_score(scale, score)
         feedback = final_feedback(state["current_scale"], score, interpretation)
-        return f"✅ Screening complete!\n\nScore: {score}\nInterpretation: {interpretation}\n\n{feedback}"
+        return f"Screening complete\n\nScore: {score}\nInterpretation: {interpretation}\n\n{feedback}"
 
     options_str = ", ".join([f"{k}={v}" for k,v in next_q["options"].items()])
     return f"{next_q['id']}. {next_q['text']}\nOptions: {options_str}"
